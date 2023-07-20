@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <title>The Todo-List</title>
+</head>
+<body>
+    <main class="app">
+        <h1>Jeremy's todo-list webapp!</h1>
+        <div class="input-header">
+            <h1><span id="date"></span></h1>
+            <div class="to-do-input"></div>
+            <input type="text" id="item" placeholder="New task..."><button id="add">Add task...</button>
+        </div>
+        <div class="to-do-list"></div>
+    </main>
+    <script src="./apps.js"></script>
+    <div class="item">
+        <div class="input-controller">
+            <textarea disabled></textarea>
+            <div class="edit-controller">
+                <i class="fa-solid fa-trash deleteBtn"></i>
+                <i class="fa-solid fa-pencil-alt editBtn"></i>
+                <i class="fa-solid fa-thumbs-up"></i>
+                
+            </div>
+        </div>
+    <div class="update-controller"></div>
+        <!-- <button class="saveBtn">Save</button>
+        <button class="cancelBtn">Cancel</button> -->
+    </div>
+</body>
+</html>
